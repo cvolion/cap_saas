@@ -21,7 +21,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <%= link_to 'the Gilley van Weirden Workshop', root_path, class: 'navbar-brand' %>
+        <%= link_to 'MimesOnly.com', root_path, class: 'navbar-brand' %>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="main-nav-collapse">
@@ -35,7 +35,15 @@
   /Bootstrap nav component
   -->
   
-  <%= yield %>
+  <!--
+  Main content container
+  -->
+  <div class="container">
+    <%= yield %>
+  </div>
+  <!--
+  /Main content container
+  -->
 
 </body>
 </html>
