@@ -10,10 +10,12 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 
-# Use Bootstrap library for default styles
-gem 'bootstrap-sass',   '3.3.1'
 # Use SCSS for stylesheets
 gem 'sass-rails',       '4.0.3'
+# Use Bootstrap library for default styles
+gem 'bootstrap-sass',   '3.3.1'
+# Use FontAwesome for icons
+gem 'font-awesome-sass',   '4.5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier',         '1.3.0'
 # Use CoffeeScript for .coffee assets and views
