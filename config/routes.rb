@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  # Connect database
+  # Generate db routes > preview routes with 'bundle exec rake routes'
   resources :contacts
   # About
   get '/about' => 'pages#about'
