@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Online Dating for Single Wizards</title>
+  <title>Magical Dating for Single Wizards</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -19,7 +19,7 @@
         </button>
         <%= link_to root_path, class: 'navbar-brand' do %>
           <i class="fa fa-users"></i>
-          WizardsOnly.com
+          WizardMatch.com
         <% end %>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -39,7 +39,13 @@
   Main content container
   -->
   <div class="container">
+    
+    <% flash.each do |key, value| %>
+      <%= content_tag :div, value, class: "alert alert-#{key}" %>
+    <% end %>
+    
     <%= yield %>
+    
   </div>
   <!--
   /Main content container
