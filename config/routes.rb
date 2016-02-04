@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   # Generate db routes > preview routes with 'bundle exec rake routes'
   resources :contacts
   # About
