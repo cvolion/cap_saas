@@ -1,12 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users, controllers: { registrations: 'users/registrations' }
-  # Generate db routes > preview routes with 'bundle exec rake routes'
   resources :contacts
-  # About
   get '/about' => 'pages#about'
-  # Home
   root 'pages#home'
-  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
