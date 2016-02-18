@@ -25,8 +25,11 @@ gem 'coffee-rails',     '4.1.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+
+# DEPRECATED because there may be conflicts with STRIPE gem
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+# gem 'turbolinks'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder',         '2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
@@ -58,3 +61,10 @@ end
 
 # Flexible authentication solution for Rails with Warden
 gem 'devise', '3.4.1'
+
+# Stripe is the easiest way to accept payments online. See https://stripe.com for details.
+# Required deprecation of Turbolinks gem
+gem 'stripe', '1.35.1'
+
+# Hides secret keys. A simple, Heroku-friendly Rails app configuration using ENV and a single YAML file
+gem 'figaro', '1.1.1'
