@@ -66,5 +66,5 @@ gem 'devise', '3.4.1'
 # Required deprecation of Turbolinks gem
 gem 'stripe', '1.35.1'
 
-# Hides secret keys. A simple, Heroku-friendly Rails app configuration using ENV and a single YAML file
+# Hides secret keys (on GitHub where peops can see it) using ENV and a single YAML file
 gem 'figaro', '1.1.1'

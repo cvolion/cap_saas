@@ -6,6 +6,6 @@
 stripe_api_key: sk_test_3MNNDVQo8VeCbkF1YnG2jswf
 stripe_publishable_key: pk_test_iUKX0jWxcpWPCdkw0RTQNq7x
 #
-# production:
-stripe_api_key: sk_test_3MNNDVQo8VeCbkF1YnG2jswf
-stripe_publishable_key: pk_test_iUKX0jWxcpWPCdkw0RTQNq7x
+production:
+  stripe_api_key: sk_test_3MNNDVQo8VeCbkF1YnG2jswf
+  stripe_publishable_key: pk_test_iUKX0jWxcpWPCdkw0RTQNq7x
