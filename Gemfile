@@ -64,7 +64,7 @@ gem 'devise', '3.4.1'
 
 # Stripe is the easiest way to accept payments online. See https://stripe.com for details.
 # Required deprecation of Turbolinks gem
-gem 'stripe', '1.35.1'
+gem 'stripe', '1.16.1'
 
 # Hides secret keys (on GitHub where peops can see it) using ENV and a single YAML file
 gem 'figaro', '1.1.1'
